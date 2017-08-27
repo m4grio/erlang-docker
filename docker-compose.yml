@@ -3,3 +3,7 @@ services:
   erlang:
     build:
       context: .
+  rebar3:
+    build:
+      context: .
+      dockerfile: rebar3.Dockerfile
