@@ -3,7 +3,9 @@ services:
   erlang:
     build:
       context: .
+      image: erlangdocker_erlang
   rebar3:
     build:
       context: .
       dockerfile: rebar3.Dockerfile
+      image: erlangdocker_rebar3
